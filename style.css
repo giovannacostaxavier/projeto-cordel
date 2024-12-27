@@ -51,11 +51,14 @@ section{
     line-height: 2em;
     font-family:var(--fonte03);
     font-size: 3.5vw;
-    
-    background-size: cover;
-    background-attachment: fixed;
+    color: white;
     
 
+}
+section.imagem{
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: gray;
 }
 section > p{
    padding-bottom: 2em;   
@@ -71,14 +74,8 @@ section#img02{
   
 }
 
-
-.imagem{
-    background-color: gray;
-    
-}
-.imagem > p{
+section.imagem > p{
     background-color: rgba(0, 0, 0, 0.525);
-    color: white;
     display: inline-block;
     padding: 7px;
 }
